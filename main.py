@@ -38,7 +38,7 @@ while True:
         print("하체운동이 끝났습니다!")
         break
     else:
-        input = input()
+        a = input()
         last_card = deck.pop()
         player.append(last_card)
         print("현재 패 >>", player[-1])
