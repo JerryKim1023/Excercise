@@ -3,7 +3,7 @@ import random
 deck = []
 
 # nums과 shapes 정의
-shapes = '♥♣♠◆'
+shapes = ['♥ 스쿼트', '♣ 스쿼트', '♠ 오른발런지', '◆ 왼발런지']
 nums = []
 for i in range(2,11):
     nums.append(str(i))
