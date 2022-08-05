@@ -7,12 +7,14 @@ shapes = ['♥ 스쿼트', '♣ 스쿼트', '♠ 오른발런지', '◆ 왼발�
 nums = []
 for i in range(2,11):
     nums.append(str(i))
-for c in 'JQKA':
+
+JQKA = ['J 10', 'Q 10', 'K 10', 'A 11']
+for c in JQKA:
     nums.append(c)
 
 #조커 넣어주기
-deck.append(('Joker', 'black'))
-deck.append(('Joker', 'colored'))
+deck.append(('Joker', 'black 아무거나 10회'))
+deck.append(('Joker', 'colored 아무거나 10회'))
 
 # 덱 만들기
 for shape in shapes:
