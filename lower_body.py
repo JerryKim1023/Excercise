@@ -27,6 +27,7 @@ player = []
 
 last_card = deck.pop()
 player.append(last_card)
+print('하체 운동 시작!!!')
 print("현재 패 >>", player[-1])
 
 
