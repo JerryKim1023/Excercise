@@ -32,8 +32,7 @@ print("현재 패 >>", player[-1])
 
 while True:
 
-    # 플레이어의 차례
-    # 플레이어가 무언가를 한다..
+    # 플레이어가 운동을 한다.
     if len(deck) == 0:
         print("하체운동이 끝났습니다!")
         break
