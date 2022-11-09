@@ -24,6 +24,7 @@ lower_body.py => 하체 운동 로직 / 아래에 설명이 있고 사진상의 
 
 1. 상체
 ![KakaoTalk_20220805_104208941](https://user-images.githubusercontent.com/74017167/182988458-f7c797e3-e044-4939-b7b6-4d9ffb40a824.png)
+![image](https://user-images.githubusercontent.com/74017167/184472173-8586f99c-4cad-41c7-a05e-5ec4e434f6b1.png)
 
 2. 하체 (이 부분에서 포커카드가 필요해서 이 파이썬 프로그램을 만들었다.)
 ![KakaoTalk_20220805_111357127](https://user-images.githubusercontent.com/74017167/182988558-e579db4b-4d0f-464c-9711-7a5859b8ee68.png)
