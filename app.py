@@ -45,15 +45,16 @@ def push_up_set():
     max_num = int(max_num_receive)
     min_num = int(min_num_receive)
 
+    exercise_list = []
+
     while max_num-min_num >= 1:
-        print(f"이번 운동은 {max_num}회 입니다.")
-        a = input()
+        exercise_list.append(max_num)
         max_num -= 1
 
-        print(f"이번 운동은 {min_num}회 입니다.")
-        a = input()
+        exercise_list.append(min_num)
         min_num += 1
 
+# 리스트를 클라이언트로 넘겨줘서 엔터마다 하나씩 읽게 만들면 됨. continue?로 엔터처럼 사용자가 원하는 타이밍에 넘기는 게 가능?
     print("상체 운동이 끝났습니다!!")
     
 

@@ -18,7 +18,7 @@ function choose_exercise() {
             url: "/burpee",
             data: {},
             success: function(response){
-                
+                document.write(response); 
             }
         });
         alert("전신 루틴 ㄱㄱㄱ");
@@ -29,7 +29,7 @@ function choose_exercise() {
             url: "/deck_of_pain_rep",
             data: {},
             success: function(response){
-                console.log(response)
+                document.write(response); 
             }
         });
         alert("하체 루틴 ㄱㄱㄱ");
